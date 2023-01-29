@@ -6,7 +6,7 @@ import java.util.Map;
 public class InokashiraLine {
     public static void main(String[] args) throws Exception {
         Map<String, Boolean> stationMap = new HashMap<>();
-        // stationMap.put("駅名", 急行停車駅は1/そうでなければ0);
+        // stationMap.put("駅名", 急行停車駅はtrue/そうでなければfalse);
         stationMap.put("渋谷", true);
         stationMap.put("神泉", false);
         stationMap.put("駒場東大前", false);
