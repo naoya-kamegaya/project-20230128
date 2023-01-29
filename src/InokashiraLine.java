@@ -20,10 +20,6 @@ public class InokashiraLine {
         stationMap.put("浜田山", false);
         stationMap.put("高井戸", false);
         stationMap.put("富士見ヶ丘", false);
-        stationMap.put("久我山", true);
-        stationMap.put("三鷹台", false);
-        stationMap.put("井の頭公園", false);
-        stationMap.put("吉祥寺", true);
 
         List<String> stationsWantToKnow = new ArrayList<>();
         stationsWantToKnow.add("渋谷");
